@@ -1,0 +1,10 @@
+import csv
+import pandas
+		
+data = pandas.read_csv('up-regulated_genes.csv',sep='\t')
+
+data = data[['Chr','Start','End']]
+print(data)
+data.to_csv(r'up-regulated_genes.narrowPeak', index=None, sep='\t', header =True)
+
+

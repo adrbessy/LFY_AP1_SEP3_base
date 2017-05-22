@@ -154,53 +154,6 @@ Nearest_PromoterID );""")
 #down_strands
 #);""")
 
-## CREATE a table
-#cur.execute("""CREATE TABLE ChIP_Seq_GSE20176 (
-#Nhits_GSM506208_090323,
-#lengthRead_GSM506208_090323, 
-#strand_GSM506208_090323, 
-#chr_GSM506208_090323, 
-#pos_GSM506208_090323,
-#Nhits_GSM506209_090305,
-#lengthRead_GSM506209_090305, 
-#strand_GSM506209_090305, 
-#chr_GSM506209_090305, 
-#pos_GSM506209_090305,
-#Nhits_GSM506209_090313,
-#lengthRead_GSM506209_090313, 
-#strand_GSM506209_090313, 
-#chr_GSM506209_090313, 
-#pos_GSM506209_090313,
-#Nhits_GSM506210_090323,
-#lengthRead_GSM506210_090323, 
-#strand_GSM506210_090323, 
-#chr_GSM506210_090323, 
-#pos_GSM506210_090323,
-#Nhits_GSM506210_090408,
-#lengthRead_GSM506210_090408, 
-#strand_GSM506210_090408, 
-#chr_GSM506210_090408, 
-#pos_GSM506210_090408,
-#Nhits_GSM506211_090305,
-#lengthRead_GSM506211_090305, 
-#strand_GSM506211_090305, 
-#chr_GSM506211_090305, 
-#pos_GSM506211_090305,
-#Nhits_GSM506211_090313,
-#lengthRead_GSM506211_090313, 
-#strand_GSM506211_090313, 
-#chr_GSM506211_090313, 
-#pos_GSM506211_090313
-#);""")
-
-### INSERT data from a file
-#with open('GSE20176_RAW/GSM506211_090313.soa','rb') as fin: # `with` statement available in 2.5+
-	## csv.DictReader uses first line in file for column headings by default
-	#dr = csv.DictReader(fin, delimiter='\t') # comma is default delimiter
-	#to_chip_db = [(i['Nhits'], i['lengthRead'], i['strand'], i['chr'], i['pos'] ) for i in dr]
-#cur.executemany("INSERT INTO ChIP_Seq_GSE20176 (Nhits_GSM506211_090313, lengthRead_GSM506211_090313, strand_GSM506211_090313, chr_GSM506211_090313, pos_GSM506211_090313) VALUES (?, ?, ?, ?, ?);", to_chip_db)
-#con.commit()
-
 with open('tab_sep_LFY_regulated_genes_with_GSE96799.csv','rb') as fin: # `with` statement available in 2.5+
 	# csv.DictReader uses first line in file for column headings by default
 	dr = csv.DictReader(fin, delimiter='\t') # comma is default delimiter
