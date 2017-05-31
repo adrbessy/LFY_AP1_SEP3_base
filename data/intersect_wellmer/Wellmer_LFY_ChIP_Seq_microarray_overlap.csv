@@ -1,0 +1,68 @@
+Locus	Description	Alias
+AT1G04250 	 AUX/IAA transcriptional regulator family protein 	 AXR3 IAA17
+AT1G24625 	 zinc finger protein 7 	 ZFP7
+AT1G25560 	 AP2/B3 transcription factor family protein 	 TEM1 EDF1
+AT1G66920 	 Protein kinase superfamily protein 	 nan
+AT1G78240 	 S-adenosyl-L-methionine-dependent methyltransferases superfamily protein 	 TSD2 QUA2 OSU1
+AT2G03440 	 nodulin-related protein 1 	 NRP1 ATNRP1
+AT2G22190 	 Haloacid dehalogenase-like hydrolase HAD superfamily protein 	 TPPE
+AT2G31160 	 Protein of unknown function DUF640 	 LSH3
+AT2G39800 	 delta1-pyrroline-5-carboxylate synthase 1 	 P5CS1 ATP5CS
+AT2G47460 	 myb domain protein 12 	 MYB12 ATMYB12 PFG1
+AT3G04510 	 Protein of unknown function DUF640 	 LSH2
+AT3G25710 	 basic helix-loop-helix 32 	 BHLH32 ATAIG1 TMO5
+AT3G52470 	 Late embryogenesis abundant LEA hydroxyproline-rich glycoprotein family 	 nan
+AT3G57800 	 basic helix-loop-helix bHLH DNA-binding superfamily protein 	 nan
+AT3G60530 	 GATA transcription factor 4 	 GATA4
+AT4G22540 	 OSBPoxysterol binding protein-related protein 2A 	 ORP2A
+AT4G22780 	 ACT domain repeat 7 	 ACR7
+AT4G26080 	 Protein phosphatase 2C family protein 	 ABI1 AtABI1
+AT4G27980 	 Domain of unknown function DUF3444 	 nan
+AT4G35900 	 Basic-leucine zipper bZIP transcription factor family protein 	 FD FD-1 atbzip14
+AT4G39480 	 cytochrome P450 family 96 subfamily A polypeptide 9 	 CYP96A9
+AT5G07290 	 MEI2-like 4 	 AML4 ML4
+AT5G12250 	 beta-6 tubulin 	 TUB6
+AT5G20635 	 FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological_process unknown; LOCATED IN: keratin filament chloroplast; CONTAINS InterPro DOMAIN/s: Keratin high sulphur B2 protein InterPro:IPR002494; Has 6153 Blast hits to 2882 proteins in 265 species: Archae - 6; Bacteria - 47; Metazoa - 4777; Fungi - 68; Plants - 187; Viruses - 30; Other Eukaryotes - 1038 source: NCBI BLink. 	 nan
+AT5G22390 	 Protein of unknown function DUF3049 	 nan
+AT5G23000 	 myb domain protein 37 	 RAX1 MYB37 ATMYB37
+AT5G24910 	 cytochrome P450 family 714 subfamily A polypeptide 1 	 CYP714A1
+AT5G49330 	 myb domain protein 111 	 MYB111 ATMYB111 PFG3
+AT5G49520 	 WRKY DNA-binding protein 48 	 WRKY48 ATWRKY48
+AT5G60630 	 FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological_process unknown; LOCATED IN: endomembrane system; EXPRESSED IN: 17 plant structures; EXPRESSED DURING: 6 growth stages; BEST Arabidopsis thaliana protein match is: hydroxyproline-rich glycoprotein family protein TAIR:AT3G45230.1; Has 1807 Blast hits to 1807 proteins in 277 species: Archae - 0; Bacteria - 0; Metazoa - 736; Fungi - 347; Plants - 385; Viruses - 0; Other Eukaryotes - 339 source: NCBI BLink. 	 nan
+AT1G30360 	 Early-responsive to dehydration stress protein ERD4 	 ERD4
+AT1G69870 	 nitrate transporter 1.7 	 NRT1.7
+AT1G72210 	 basic helix-loop-helix bHLH DNA-binding superfamily protein 	 nan
+AT2G26530 	 Protein of unknown function DUF1645 	 AR781
+AT2G39230 	 LATERAL ORGAN JUNCTION 	 LOJ
+AT4G23060 	 IQ-domain 22 	 IQD22
+AT4G25420 	 2-oxoglutarate 2OG and FeII-dependent oxygenase superfamily protein 	 GA5 GA20OX1 AT2301 ATGA20OX1
+AT4G30250 	 P-loop containing nucleoside triphosphate hydrolases superfamily protein 	 nan
+AT5G11320 	 Flavin-binding monooxygenase family protein 	 YUC4
+AT5G43830 	 Aluminium induced protein with YGL and LRDR motifs 	 nan
+AT5G43935 	 flavonol synthase 6 	 FLS6 ATFLS6
+AT5G66940 	 Dof-type zinc finger DNA-binding family protein 	 nan
+AT5G23100 	 Protein of unknown function DUF617 	 nan
+AT1G69600 	 zinc finger homeodomain  1 	 ZFHD1 ATHB29 ZHD11
+AT1G71880 	 sucrose-proton symporter 1 	 SUC1 ATSUC1
+AT3G05800 	 AtBS1activation-tagged BRI1 suppressor 1-interacting factor 1 	 AIF1
+AT3G15270 	 squamosa promoter binding protein-like 5 	 SPL5
+AT4G37140 	 alpha/beta-Hydrolases superfamily protein 	 MEE69 MES20 ATMES20
+AT5G48900 	 Pectin lyase-like superfamily protein 	 nan
+AT1G30950 	 F-box family protein 	 UFO
+AT1G31310 	 hydroxyproline-rich glycoprotein family protein 	 nan
+AT1G54010 	 GDSL-like Lipase/Acylhydrolase superfamily protein 	 nan
+AT1G68460 	 isopentenyltransferase 1 	 ATIPT1 IPT1
+AT1G76420 	 NAC No Apical Meristem domain transcriptional regulator superfamily protein 	 CUC3 NAC368 ANAC031
+AT2G31083 	 CLAVATA3/ESR-RELATED 5 	 CLE5
+AT3G05810 	 FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological_process unknown; LOCATED IN: mitochondrion; EXPRESSED IN: 22 plant structures; EXPRESSED DURING: 13 growth stages; CONTAINS InterPro DOMAIN/s: IGR protein motif InterPro:IPR019083; BEST Arabidopsis thaliana protein match is: unknown protein TAIR:AT5G26800.1; Has 62 Blast hits to 62 proteins in 14 species: Archae - 0; Bacteria - 0; Metazoa - 0; Fungi - 0; Plants - 62; Viruses - 0; Other Eukaryotes - 0 source: NCBI BLink. 	 nan
+AT3G12970 	 unknown protein; BEST Arabidopsis thaliana protein match is: unknown protein TAIR:AT1G56020.1; Has 2408 Blast hits to 418 proteins in 91 species: Archae - 0; Bacteria - 41; Metazoa - 198; Fungi - 63; Plants - 125; Viruses - 13; Other Eukaryotes - 1968 source: NCBI BLink. 	 nan
+AT3G20880 	 WIP domain protein 4 	 WIP4
+AT3G45010 	 serine carboxypeptidase-like 48 	 scpl48
+AT3G50870 	 GATA type zinc finger transcription factor family protein 	 MNP HAN GATA18
+AT4G00150 	 GRAS family transcription factor 	 HAM3 ATHAM3 LOM3
+AT4G32980 	 homeobox gene 1 	 ATH1
+AT4G34160 	 CYCLIN D3;1 	 CYCD3;1 CYCD3
+AT4G35905 	 unknown protein; CONTAINS InterPro DOMAIN/s: Protein of unknown function DUF343 InterPro:IPR005651; Has 30201 Blast hits to 17322 proteins in 780 species: Archae - 12; Bacteria - 1396; Metazoa - 17338; Fungi - 3422; Plants - 5037; Viruses - 0; Other Eukaryotes - 2996 source: NCBI BLink. 	 nan
+AT4G37810 	 unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological_process unknown; LOCATED IN: endomembrane system; BEST Arabidopsis thaliana protein match is: unknown protein TAIR:AT5G10310.1; Has 149 Blast hits to 149 proteins in 15 species: Archae - 0; Bacteria - 0; Metazoa - 0; Fungi - 0; Plants - 149; Viruses - 0; Other Eukaryotes - 0 source: NCBI BLink. 	 nan
+AT5G66800 	 unknown protein; BEST Arabidopsis thaliana protein match is: unknown protein TAIR:AT3G50640.1; Has 1807 Blast hits to 1807 proteins in 277 species: Archae - 0; Bacteria - 0; Metazoa - 736; Fungi - 347; Plants - 385; Viruses - 0; Other Eukaryotes - 339 source: NCBI BLink. 	 nan
+AT2G30230 	 unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological_process unknown; LOCATED IN: endomembrane system; BEST Arabidopsis thaliana protein match is: unknown protein TAIR:AT1G06980.1; Has 167 Blast hits to 167 proteins in 14 species: Archae - 0; Bacteria - 0; Metazoa - 0; Fungi - 0; Plants - 167; Viruses - 0; Other Eukaryotes - 0 source: NCBI BLink. 	 nan

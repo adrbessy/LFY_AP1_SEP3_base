@@ -8,7 +8,7 @@ library(affy)
 library(gcrma)
 library(RankProd) 
 
-data0<-read.table('GSE576_31_32_39_40.csv', header = TRUE, sep = "\t", quote = '"')
+data0<-read.table('GSE576_33_34_41_42.csv', header = TRUE, sep = "\t", quote = '"')
 data <- data0[,-1]
 rownames(data) <- data0[,1]
 data.cl<-c(0,0,1,1)
@@ -21,11 +21,19 @@ data1<-result_0.1$Table1
 data1<-data1[,-2] ## suppress the RP/Rsum column
 data1=cbind(rownames(data1),data1)
 
-colnames(data1)[c(1,4,5)]=c('ath1_probe','pfp_GSE576_31_32_39_40_down','P.value_GSE576_31_32_39_40_down')
+colnames(data1)[c(1,4,5)]=c('ath1_probe','pfp_GSE576_33_34_41_42_down','P.value_GSE576_33_34_41_42_down')
 data2<-result_0.1$Table2
 data2<-data2[,c(1,4,5)]
 data2=cbind(rownames(data2),data2)
-colnames(data2)[c(1,3,4)]=c('ath1_probe','pfp_31_32_39_40_up','P.value_31_32_39_40_up')
+colnames(data2)[c(1,3,4)]=c('ath1_probe','pfp_33_34_41_42_up','P.value_33_34_41_42_up')
 tables<-merge(data1, data2, by=c('ath1_probe','gene.index'),all=T)
-colnames(tables)[c(2,3)]=c('probe_target_number','FC_31_32_39_40_GSE576')
-write.table(tables,file='GSE576_31_32_39_40_2.csv',sep='\t',row.names=F)
+colnames(tables)[c(2,3)]=c('probe_target_number','FC_33_34_41_42_GSE576')
+write.table(tables,file='GSE576_33_34_41_42_2.csv',sep='\t',row.names=F)
+
+multmerge = function(){
+filenames=list.files(full.names=TRUE)
+datalist = lapply(filenames, function(x){read.csv(file=x,, header = TRUE, sep = "\t", quote = '"')})
+Reduce(function(x,y) {merge(x,y, by=c('ath1_probe','probe_target_number'),all=T)}, datalist)
+}
+all<-multmerge()
+write.table(all,file="all.csv",sep="\t",row.names=F)

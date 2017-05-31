@@ -16,6 +16,23 @@ FC_DexCyclo_cyclo REAL,
 Pvalue_DexCyclo_cyclo_down REAL, 
 Pvalue_DexCyclo_cyclo_up REAL);""")
 
+cur.execute("""CREATE TABLE IF NOT EXISTS microarrays_GSE576 (
+Locus_Identifier, 
+ath1_probe, 
+Annotation, 
+FC_27_28_35_36_GSE576,
+Pvalue__27_28_35_36_down,
+Pvalue_27_28_35_36_up,
+FC_29_30_37_38_GSE576,
+Pvalue_29_30_37_38_down,
+Pvalue_29_30_37_38_up, 
+FC_31_32_39_40_GSE576,
+Pvalue_31_32_39_40_down,
+Pvalue_31_32_39_40_up, 
+FC_33_34_41_42_GSE576,
+Pvalue_33_34_41_42_down,
+Pvalue_33_34_41_42_up);""")
+
 cur.execute("""CREATE TABLE IF NOT EXISTS microarrays_GSE28062 (
 Locus_Identifier, 
 ath1_probe, 
